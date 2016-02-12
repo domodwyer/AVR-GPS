@@ -4,7 +4,7 @@ An example dive into the world of AVR micro-controllers - using the [Atmel AT90U
 
 The example code takes streaming [NEMA 0183](https://en.wikipedia.org/wiki/NMEA_0183) messages over the serial port using the AVR's hardware interrupts, building a linked list of messages to be parsed.
 
-From there, the main routine decodes each message in the linked list into it's constituent parts (well, not all of them, I don't care )
+From there, the main routine decodes each message in the linked list into it's constituent parts (well, not all of them) and then does... nothing. That bit is up to you!
 
 ##Build Instructions
 Install [CrossPack](https://www.obdev.at/products/crosspack/index.html) with either the official installer or homebrew (`brew install Caskroom/cask/crosspack-avr`). Don't forget to set your path (if installing using homebrew, you should `export PATH=$PATH:/usr/local/CrossPack-AVR/bin`).

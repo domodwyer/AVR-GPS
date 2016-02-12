@@ -4,8 +4,8 @@ TARGET = gps
 
 # List C source files here. (C dependencies are automatically generated.)
 SRC =	$(TARGET).c \
-	../lib/usb_debug_only.c \
-	../lib/usart/usart.c
+	lib/usb_debug_only.c \
+	lib/usart/usart.c
 
 MCU = at90usb1286      # Teensy++ 2.0
 

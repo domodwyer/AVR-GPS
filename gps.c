@@ -58,9 +58,9 @@
 
 
 #include "gps.h"
-#include "../lib/common.h"
-#include "../lib/usb_debug_only.h"
-#include "../lib/usart/usart.h"
+#include "lib/common.h"
+#include "lib/usb_debug_only.h"
+#include "lib/usart/usart.h"
 
 ///Serial baudrate config
 #define USART_BAUDRATE 9600

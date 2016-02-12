@@ -11,6 +11,7 @@ Install [CrossPack](https://www.obdev.at/products/crosspack/index.html) with eit
 
 - **Build:** run `make` to build the firmware
 - **Flash:** edit the Makefile to reflect your avrdude settings and run `make flash`.
+- **Clean:** run `make clean` to remove the compiled files from the working directory.
 
 I use a cheap Chinese USBASP programmer purchased for next to nothing on a well known auction site - it works brilliantly!
 
